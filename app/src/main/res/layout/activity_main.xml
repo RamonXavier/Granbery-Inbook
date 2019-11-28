@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashscreen1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/logar"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:background="#75FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:onClick="login"
+        android:text="@string/logar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#86081E8D"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginStart="0dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/granbery_inbook"
+            android:textColor="#ffffff"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/sub_tittle"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:contentDescription="@string/logo_granbery"
+            android:paddingTop="5dp"
+            app:srcCompat="@drawable/logo_g" />
+
+        <EditText
+            android:id="@+id/usr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Usuário"
+            android:inputType="textPersonName"
+            android:textColor="#FFEB3B"
+            android:textColorHighlight="#FFEB3B"
+            android:textColorHint="#F7F3F3"
+            android:textColorLink="#FFEB3B" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:textColor="#FFEB3B"
+            android:textColorHighlight="#FFEB3B"
+            android:textColorHint="#F7F3F3"
+            android:textColorLink="#FFEB3B" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

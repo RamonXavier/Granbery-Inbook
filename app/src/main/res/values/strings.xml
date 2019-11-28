@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GranberyInBook</string>
+    <string name="usuario">Usuário</string>
+    <string name="user">Usuário</string>
+    <string name="logo_granbery">Logo Granbery</string>
+    <string name="logar">Logar</string>
+    <string name="sub_tittle">Sua imaginação sem limites</string>
+    <string name="granbery_inbook">Granbery InBook</string>
+    <string name="usu_txt">Usuário</string>
+    <string name="usr">hint</string>
+    <string name="usu_rio">Usuário</string>
+    <string name="senha">Senha</string>
+</resources>
