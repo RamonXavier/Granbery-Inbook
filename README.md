@@ -20,6 +20,15 @@ Para back-end:
 
 # Ferramentas:
 	-Para edição de texto e a programação em si foi utilizada a IDE Android Studio; 
+	
+# Para instalar
+	- De um git clone em seu diretório de projetos;
+	- Importe a aplicação pelo Android Studio;
+	- Utiliize um emulador ou celular com android 6.0 ou superior;
+	- Uma segunda alternativa é a instalação do APk contido na raiz do repositório. 
+
+#Slides
+	- Será disponibilizado um slide auto-explicativo para o app. Também no repositório. 
         
 # Contato: 
 	Ramon Xavier
