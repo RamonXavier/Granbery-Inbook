@@ -1,8 +1,6 @@
 # Granbery-Inbook
 Aplicação de biblioteca em java para estudo pessoal e trabalho acadêmico. 
 
-# Granbery Inbook
-
 <h1>Objetivo:</h1>
 O presente projeto foi um exercício práticado na disciplina de desenvolvimento mobile da Faculdade Metodista Granbery.
 Visa criar um app mobile que atenda alguma necessidade da instituição. 
